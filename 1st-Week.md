@@ -27,13 +27,13 @@
 
 보다시피 `String`,`Integer`로 먼저 타입을 지정한걸 알 수 있습니다
 
-![StringBox](StringBox.png)
+![StringBox](media/StringBox.png)
 
-![IntegerBox](IntegerBox.png)
+![IntegerBox](media/IntegerBox.png)
 
 `BoxMain1`에선 `set`에 값을 넣을때, 올바른 타입으로 넣어줘서 오류가 나지 않은걸 확인할 수 있습니다
 
-![BoxMain1](BoxMain1.png)
+![BoxMain1](media/BoxMain1.png)
 
 하지만 이렇게 코드를 짠다면 Box의 종류를 `StringBox`,`IntegerBox` 이렇게 두가지로 만들어야하는데 그렇다면 <mark>재사용성이 떨어지겠죠?</mark>
 
@@ -41,19 +41,19 @@
 
 `ObjectBox`를 보면 모든 타입의 부모인 `Object`를 사용해서 만든걸 볼 수 있습니다
 
-![ObjectBox](ObjectBox.png)
+![ObjectBox](media/ObjectBox.png)
 
 이 `ObjectBox`를 사용하는 `BoxMain2`에서는 `(Integer)`로 다운캐스팅을 한 모습을 볼 수 있습니다
 
 따라서 `Integer`형은 사용가능하지만 아래에 있는 “숫자가 아니에요” 는 <mark>실행시 오류</mark>가 나게됩니다
 
-![BoxMain2](BoxMain2.png)
+![BoxMain2](media/BoxMain2.png)
 
 ## 다운캐스팅과 `ClassCastException`
 
 아래 보시면 `get()`의 반환타입이 `Object`라서 다른 타입이 안에 있어도 컴파일 오류가 생기지 않아, 개발자입장에서는 코드를 직접 빌드하기 전까지는 오류를 알 수 없습니다.(사진보여주기)
 
-![BoxMain2 실행 결과 - ClassCastException](BoxMain2-실행결과.png)
+![BoxMain2 실행 결과 - ClassCastException](media/BoxMain2-실행결과.png)
 
 여기서 알고가면 좋은건, <mark>오류중에서는 컴파일오류가 제일 좋다</mark> 라는걸 알아주시면 좋습니다
 
@@ -75,7 +75,7 @@
 
 `T`는 아래 보는것처럼 다양하게 바꿔쓸 수 있습니다(아래에 사진보여주기)
 
-![타입 매개변수 관례](제네릭형태.png)
+![타입 매개변수 관례](media/제네릭형태.png)
 
 ## 명칭 정리
 
@@ -101,11 +101,11 @@
 
 이어서 `GenericBox`를 보시면 제네릭 유형으로 메서드가 구성된걸 볼 수 있습니다
 
-![GenericBox](GenericBox.png)
+![GenericBox](media/GenericBox.png)
 
 이 메서드를 사용한 `BoxMain3`에서는 이 제네릭을 통해서 원하는 타입으로 자유롭게 변경이 가능합니다
 
-![BoxMain3](BoxMain3.png)
+![BoxMain3](media/BoxMain3.png)
 
 ## 재사용성과 타입안정성
 
