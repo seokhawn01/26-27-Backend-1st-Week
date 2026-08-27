@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+<style>
+  .lbl  { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .addr { font-size:34px; fill:#111; }
+  .val  { font-size:34px; fill:#111; text-anchor:middle; }
+  .fld  { font-size:22px; fill:#8a8a8a; text-anchor:middle; }
+  .nm   { font-size:28px; fill:#111; text-anchor:middle; }
+  .bx   { fill:none; stroke:#111; stroke-width:3.5; }
+  .ar   { fill:none; stroke:#111; stroke-width:5; }
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#111"/>
+  </marker>
+</defs>
+<rect width="1000" height="1000" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,340)">
+  <text class="addr" x="60" y="58">x01</text>
+  <rect class="bx" x="60" y="72" width="240" height="150"/>
+  <rect class="bx" x="90" y="100" width="180" height="72"/>
+  <line x1="180" y1="100" x2="180" y2="172" stroke="#111" stroke-width="3.5"/>
+  <text class="val" x="135" y="147">"A"</text>
+  <text class="val" x="225" y="147">x02</text>
+  <text class="fld" x="135" y="199">item</text>
+  <text class="fld" x="225" y="199">next</text>
+  <text class="nm"  x="180" y="258">Node 0</text>
+
+  <text class="addr" x="380" y="58">x02</text>
+  <rect class="bx" x="380" y="72" width="240" height="150"/>
+  <rect class="bx" x="410" y="100" width="180" height="72"/>
+  <line x1="500" y1="100" x2="500" y2="172" stroke="#111" stroke-width="3.5"/>
+  <text class="val" x="455" y="147">"B"</text>
+  <text class="val" x="545" y="147">x03</text>
+  <text class="fld" x="455" y="199">item</text>
+  <text class="fld" x="545" y="199">next</text>
+  <text class="nm"  x="500" y="258">Node 1</text>
+
+  <text class="addr" x="700" y="58">x03</text>
+  <rect class="bx" x="700" y="72" width="240" height="150"/>
+  <rect class="bx" x="730" y="100" width="180" height="72"/>
+  <line x1="820" y1="100" x2="820" y2="172" stroke="#111" stroke-width="3.5"/>
+  <text class="val" x="775" y="147">"C"</text>
+  <text class="val" x="865" y="147">null</text>
+  <text class="fld" x="775" y="199">item</text>
+  <text class="fld" x="865" y="199">next</text>
+  <text class="nm"  x="820" y="258">Node 2</text>
+
+  <path class="ar" marker-end="url(#a)" d="M 225 100 C 258 52, 320 34, 368 42"/>
+  <path class="ar" marker-end="url(#a)" d="M 545 100 C 578 52, 640 34, 688 42"/>
+</g>
+</svg>

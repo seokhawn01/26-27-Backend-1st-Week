@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1140" viewBox="0 0 1140 1140">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .val { font-size:38px; fill:#111; text-anchor:middle; }
+  .side{ font-size:26px; fill:#555; }
+  .cap { font-size:26px; fill:#111; text-anchor:middle; }
+  .nd  { fill:#ffffff; stroke:#111; stroke-width:3.5; }
+  .eg  { fill:none; stroke:#111; stroke-width:3.5; }
+</style>
+<rect width="1140" height="1140" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,200)">
+  <text class="side" x="60" y="60">3, 7, 9, 12, 45 를 순서대로 넣은 경우</text>
+
+  <path class="eg" d="M 200 140 L 340 250"/>
+  <path class="eg" d="M 340 250 L 480 360"/>
+  <path class="eg" d="M 480 360 L 620 470"/>
+  <path class="eg" d="M 620 470 L 760 580"/>
+
+  <circle class="nd" cx="200" cy="140" r="52"/>
+  <circle class="nd" cx="340" cy="250" r="52"/>
+  <circle class="nd" cx="480" cy="360" r="52"/>
+  <circle class="nd" cx="620" cy="470" r="52"/>
+  <circle class="nd" cx="760" cy="580" r="52"/>
+
+  <text class="val" x="200" y="154">3</text>
+  <text class="val" x="340" y="264">7</text>
+  <text class="val" x="480" y="374">9</text>
+  <text class="val" x="620" y="484">12</text>
+  <text class="val" x="760" y="594">45</text>
+
+  <text class="cap" x="570" y="700">한쪽으로만 자라서 사실상 연결리스트가 되어버립니다</text>
+</g>
+</svg>

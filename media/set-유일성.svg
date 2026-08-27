@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .nm  { font-size:30px; fill:#111; }
+  .val { font-size:52px; fill:#111; text-anchor:middle; }
+  .in  { font-size:46px; fill:#111; text-anchor:middle; }
+  .cap { font-size:24px; fill:#8a8a8a; text-anchor:middle; }
+  .bx  { fill:none; stroke:#111; stroke-width:3.5; }
+  .ar  { fill:none; stroke:#111; stroke-width:3.5; }
+  .x   { stroke:#d13b3b; stroke-width:7; stroke-linecap:round; }
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#111"/>
+  </marker>
+</defs>
+<rect width="1000" height="1000" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,220)">
+  <text class="nm" x="60" y="62">Set</text>
+  <rect class="bx" x="60" y="90" width="520" height="400" rx="48"/>
+  <text class="val" x="190" y="205">3</text>
+  <text class="val" x="405" y="195">7</text>
+  <text class="val" x="245" y="355">12</text>
+  <text class="val" x="440" y="385">45</text>
+
+  <text class="in"  x="890" y="215">9</text>
+  <path class="ar" marker-end="url(#a)" d="M 845 200 L 600 200"/>
+  <text class="cap" x="722" y="252">새로운 값이라 추가됩니다</text>
+
+  <text class="in"  x="890" y="405">12</text>
+  <path class="ar" marker-end="url(#a)" d="M 845 390 L 600 390"/>
+  <line class="x" x1="705" y1="368" x2="753" y2="412"/>
+  <line class="x" x1="753" y1="368" x2="705" y2="412"/>
+  <text class="cap" x="722" y="452">이미 있는 값이라 무시됩니다</text>
+</g>
+</svg>

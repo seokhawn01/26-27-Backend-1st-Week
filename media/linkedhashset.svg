@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1140" viewBox="0 0 1140 1140">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .val { font-size:34px; fill:#111; text-anchor:middle; }
+  .idx { font-size:22px; fill:#8a8a8a; text-anchor:middle; }
+  .side{ font-size:26px; fill:#555; }
+  .tag { font-size:24px; fill:#8a8a8a; text-anchor:middle; }
+  .cap { font-size:26px; fill:#111; text-anchor:middle; }
+  .bx  { fill:none; stroke:#111; stroke-width:3.5; }
+  .ar  { fill:none; stroke:#111; stroke-width:3.5; }
+  .cn  { fill:none; stroke:#bbbbbb; stroke-width:2.5; stroke-dasharray:8 8; }
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#111"/>
+  </marker>
+</defs>
+<rect width="1140" height="1140" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,245)">
+  <text class="side" x="40" y="165">해시 배열</text>
+  <rect class="bx" x="200" y="100" width="820" height="110"/>
+  <line class="bx" x1="282" y1="100" x2="282" y2="210"/>
+  <line class="bx" x1="364" y1="100" x2="364" y2="210"/>
+  <line class="bx" x1="446" y1="100" x2="446" y2="210"/>
+  <line class="bx" x1="528" y1="100" x2="528" y2="210"/>
+  <line class="bx" x1="610" y1="100" x2="610" y2="210"/>
+  <line class="bx" x1="692" y1="100" x2="692" y2="210"/>
+  <line class="bx" x1="774" y1="100" x2="774" y2="210"/>
+  <line class="bx" x1="856" y1="100" x2="856" y2="210"/>
+  <line class="bx" x1="938" y1="100" x2="938" y2="210"/>
+  <text class="val" x="405" y="167">12</text>
+  <text class="val" x="487" y="167">3</text>
+  <text class="val" x="651" y="167">45</text>
+  <text class="val" x="815" y="167">7</text>
+  <text class="idx" x="241" y="250">[0]</text>
+  <text class="idx" x="323" y="250">[1]</text>
+  <text class="idx" x="405" y="250">[2]</text>
+  <text class="idx" x="487" y="250">[3]</text>
+  <text class="idx" x="569" y="250">[4]</text>
+  <text class="idx" x="651" y="250">[5]</text>
+  <text class="idx" x="733" y="250">[6]</text>
+  <text class="idx" x="815" y="250">[7]</text>
+  <text class="idx" x="897" y="250">[8]</text>
+  <text class="idx" x="979" y="250">[9]</text>
+
+  <path class="cn" d="M 651 272 C 651 340, 250 360, 250 428"/>
+  <path class="cn" d="M 405 272 C 405 340, 470 360, 470 428"/>
+  <path class="cn" d="M 815 272 C 815 340, 690 360, 690 428"/>
+  <path class="cn" d="M 487 272 C 487 340, 910 360, 910 428"/>
+
+  <text class="side" x="40" y="483">연결리스트</text>
+  <rect class="bx" x="190" y="430" width="120" height="86"/>
+  <rect class="bx" x="410" y="430" width="120" height="86"/>
+  <rect class="bx" x="630" y="430" width="120" height="86"/>
+  <rect class="bx" x="850" y="430" width="120" height="86"/>
+  <text class="val" x="250" y="485">45</text>
+  <text class="val" x="470" y="485">12</text>
+  <text class="val" x="690" y="485">7</text>
+  <text class="val" x="910" y="485">3</text>
+  <path class="ar" marker-end="url(#a)" d="M 310 473 L 400 473"/>
+  <path class="ar" marker-end="url(#a)" d="M 530 473 L 620 473"/>
+  <path class="ar" marker-end="url(#a)" d="M 750 473 L 840 473"/>
+  <text class="tag" x="250" y="556">head(first)</text>
+  <text class="tag" x="910" y="556">tail(last)</text>
+
+  <text class="cap" x="570" y="620">칸의 자리는 해시가 정하고, 넣은 순서는 연결리스트가 기억합니다</text>
+</g>
+</svg>

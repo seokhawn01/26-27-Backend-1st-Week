@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1140" viewBox="0 0 1140 1140">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .top { font-size:40px; fill:#111; text-anchor:middle; }
+  .val { font-size:34px; fill:#111; text-anchor:middle; }
+  .idx { font-size:20px; fill:#8a8a8a; text-anchor:middle; }
+  .dot { font-size:44px; fill:#8a8a8a; text-anchor:middle; }
+  .cap { font-size:26px; fill:#111; text-anchor:middle; }
+  .bx  { fill:none; stroke:#111; stroke-width:3.5; }
+  .dl  { fill:none; stroke:#111; stroke-width:3.5; stroke-dasharray:9 9; }
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#111"/>
+  </marker>
+</defs>
+<rect width="1140" height="1140" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,300)">
+  <text class="top" x="294"  y="98">3</text>
+  <text class="top" x="550"  y="98">7</text>
+  <text class="top" x="870"  y="98">12</text>
+  <text class="top" x="1022" y="98">45</text>
+  <path class="dl" marker-end="url(#a)" d="M 294 118 L 294 288"/>
+  <path class="dl" marker-end="url(#a)" d="M 550 118 L 550 288"/>
+  <path class="dl" marker-end="url(#a)" d="M 870 118 L 870 288"/>
+  <path class="dl" marker-end="url(#a)" d="M 1022 118 L 1022 288"/>
+
+  <rect class="bx" x="70" y="300" width="832" height="100"/>
+  <line class="bx" x1="134" y1="300" x2="134" y2="400"/>
+  <line class="bx" x1="198" y1="300" x2="198" y2="400"/>
+  <line class="bx" x1="262" y1="300" x2="262" y2="400"/>
+  <line class="bx" x1="326" y1="300" x2="326" y2="400"/>
+  <line class="bx" x1="390" y1="300" x2="390" y2="400"/>
+  <line class="bx" x1="454" y1="300" x2="454" y2="400"/>
+  <line class="bx" x1="518" y1="300" x2="518" y2="400"/>
+  <line class="bx" x1="582" y1="300" x2="582" y2="400"/>
+  <line class="bx" x1="646" y1="300" x2="646" y2="400"/>
+  <line class="bx" x1="710" y1="300" x2="710" y2="400"/>
+  <line class="bx" x1="774" y1="300" x2="774" y2="400"/>
+  <line class="bx" x1="838" y1="300" x2="838" y2="400"/>
+  <text class="dot" x="946" y="366">···</text>
+  <rect class="bx" x="990" y="300" width="64" height="100"/>
+
+  <text class="val" x="294"  y="363">3</text>
+  <text class="val" x="550"  y="363">7</text>
+  <text class="val" x="870"  y="363">12</text>
+  <text class="val" x="1022" y="363">45</text>
+
+  <text class="idx" x="102"  y="432">[0]</text>
+  <text class="idx" x="166"  y="432">[1]</text>
+  <text class="idx" x="230"  y="432">[2]</text>
+  <text class="idx" x="294"  y="432">[3]</text>
+  <text class="idx" x="358"  y="432">[4]</text>
+  <text class="idx" x="422"  y="432">[5]</text>
+  <text class="idx" x="486"  y="432">[6]</text>
+  <text class="idx" x="550"  y="432">[7]</text>
+  <text class="idx" x="614"  y="432">[8]</text>
+  <text class="idx" x="678"  y="432">[9]</text>
+  <text class="idx" x="742"  y="432">[10]</text>
+  <text class="idx" x="806"  y="432">[11]</text>
+  <text class="idx" x="870"  y="432">[12]</text>
+  <text class="idx" x="1022" y="432">[45]</text>
+
+  <text class="cap" x="562" y="500">값 45 하나 때문에 46칸이 필요한데, 실제로 쓰는 칸은 4개뿐입니다</text>
+</g>
+</svg>

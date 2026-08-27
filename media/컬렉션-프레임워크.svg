@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1700" viewBox="0 0 1700 1700">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .ib  { fill:#f6f6f6; stroke:#111; stroke-width:3.5; }
+  .cb  { fill:#ffffff; stroke:#111; stroke-width:3.5; }
+  .lb  { fill:#ffffff; stroke:#aaaaaa; stroke-width:3.5; stroke-dasharray:10 8; }
+  .eg  { fill:none; stroke:#111; stroke-width:3; }
+  .it  { font-size:17px; fill:#8a8a8a; text-anchor:middle; }
+  .inm { font-size:26px; fill:#111; text-anchor:middle; }
+  .cnm { fill:#111; text-anchor:middle; }
+  .lnm { font-size:24px; fill:#999999; text-anchor:middle; }
+  .tag { font-size:19px; fill:#999999; text-anchor:middle; }
+  .sec { font-size:24px; fill:#8a8a8a; }
+  .div { stroke:#dddddd; stroke-width:3; stroke-dasharray:12 10; }
+  .foot{ font-size:24px; fill:#555555; text-anchor:middle; }
+</style>
+<rect width="1700" height="1700" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,155)">
+  <text class="sec" x="140" y="40">Collection 계열</text>
+  <path class="eg" d="M 905 146 L 905 210"/>
+  <path class="eg" d="M 905 296 L 905 326"/>
+  <path class="eg" d="M 365 326 L 1445 326"/>
+  <path class="eg" d="M 365 326 L 365 360"/>
+  <path class="eg" d="M 965 326 L 965 360"/>
+  <path class="eg" d="M 1445 326 L 1445 360"/>
+  <path class="eg" d="M 365 446 L 365 476"/>
+  <path class="eg" d="M 245 476 L 485 476"/>
+  <path class="eg" d="M 245 476 L 245 510"/>
+  <path class="eg" d="M 485 476 L 485 510"/>
+  <path class="eg" d="M 965 446 L 965 476"/>
+  <path class="eg" d="M 725 476 L 1205 476"/>
+  <path class="eg" d="M 725 476 L 725 510"/>
+  <path class="eg" d="M 965 476 L 965 510"/>
+  <path class="eg" d="M 1205 476 L 1205 510"/>
+  <path class="eg" d="M 1445 446 L 1445 510"/>
+  <path class="eg" d="M 245 596 L 245 660"/>
+  <path class="eg" d="M 1445 596 L 1445 660"/>
+  <path class="eg" d="M 905 981 L 905 1011"/>
+  <path class="eg" d="M 725 1011 L 1085 1011"/>
+  <path class="eg" d="M 725 1011 L 725 1045"/>
+  <path class="eg" d="M 1085 1011 L 1085 1045"/>
+  <path class="eg" d="M 725 1131 L 725 1195"/>
+  <rect class="ib" x="800" y="60" width="210" height="86" rx="14"/>
+  <text class="it" x="905" y="94">&#171;interface&#187;</text>
+  <text class="inm" x="905" y="126">Iterable</text>
+  <rect class="ib" x="800" y="210" width="210" height="86" rx="14"/>
+  <text class="it" x="905" y="244">&#171;interface&#187;</text>
+  <text class="inm" x="905" y="276">Collection</text>
+  <rect class="ib" x="260" y="360" width="210" height="86" rx="14"/>
+  <text class="it" x="365" y="394">&#171;interface&#187;</text>
+  <text class="inm" x="365" y="426">Set</text>
+  <rect class="ib" x="860" y="360" width="210" height="86" rx="14"/>
+  <text class="it" x="965" y="394">&#171;interface&#187;</text>
+  <text class="inm" x="965" y="426">List</text>
+  <rect class="ib" x="1340" y="360" width="210" height="86" rx="14"/>
+  <text class="it" x="1445" y="394">&#171;interface&#187;</text>
+  <text class="inm" x="1445" y="426">Queue</text>
+  <rect class="ib" x="1340" y="510" width="210" height="86" rx="14"/>
+  <text class="it" x="1445" y="544">&#171;interface&#187;</text>
+  <text class="inm" x="1445" y="576">Deque</text>
+  <rect class="ib" x="800" y="895" width="210" height="86" rx="14"/>
+  <text class="it" x="905" y="929">&#171;interface&#187;</text>
+  <text class="inm" x="905" y="961">Map</text>
+  <rect class="cb" x="140" y="510" width="210" height="86"/>
+  <text class="cnm" x="245" y="565" font-size="24">HashSet</text>
+  <rect class="cb" x="380" y="510" width="210" height="86"/>
+  <text class="cnm" x="485" y="565" font-size="24">TreeSet</text>
+  <rect class="cb" x="620" y="510" width="210" height="86"/>
+  <text class="cnm" x="725" y="565" font-size="24">ArrayList</text>
+  <rect class="cb" x="860" y="510" width="210" height="86"/>
+  <text class="cnm" x="965" y="565" font-size="24">LinkedList</text>
+  <rect class="cb" x="1340" y="660" width="210" height="86"/>
+  <text class="cnm" x="1445" y="715" font-size="24">ArrayDeque</text>
+  <rect class="cb" x="140" y="660" width="210" height="86"/>
+  <text class="cnm" x="245" y="715" font-size="22">LinkedHashSet</text>
+  <rect class="cb" x="620" y="1045" width="210" height="86"/>
+  <text class="cnm" x="725" y="1100" font-size="24">HashMap</text>
+  <rect class="cb" x="980" y="1045" width="210" height="86"/>
+  <text class="cnm" x="1085" y="1100" font-size="24">TreeMap</text>
+  <rect class="cb" x="620" y="1195" width="210" height="86"/>
+  <text class="cnm" x="725" y="1250" font-size="22">LinkedHashMap</text>
+  <rect class="lb" x="1100" y="510" width="210" height="86"/>
+  <text class="lnm" x="1205" y="565">Stack</text>
+  <text class="tag" x="1205" y="640">레거시 — ArrayDeque 를 쓰세요</text>
+  <text class="foot" x="850" y="790">LinkedList 는 List 이면서 Deque 이기도 합니다</text>
+  <line class="div" x1="140" y1="815" x2="1550" y2="815"/>
+  <text class="sec" x="140" y="862">Map 계열 — Collection 소속이 아니라 따로 있습니다</text>
+</g>
+</svg>

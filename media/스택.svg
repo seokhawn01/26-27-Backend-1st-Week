@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1140" viewBox="0 0 1140 1140">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .mth { font-size:30px; fill:#111; text-anchor:middle; }
+  .val { font-size:38px; fill:#111; text-anchor:middle; }
+  .cap { font-size:26px; fill:#111; text-anchor:middle; }
+  .bx  { fill:#ffffff; stroke:#111; stroke-width:3.5; }
+  .wall{ fill:none; stroke:#111; stroke-width:5; }
+  .ar  { fill:none; stroke:#111; stroke-width:4; }
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#111"/>
+  </marker>
+</defs>
+<rect width="1140" height="1140" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,255)">
+  <text class="mth" x="470" y="55">push()</text>
+  <text class="mth" x="670" y="55">pop()</text>
+  <path class="ar" marker-end="url(#a)" d="M 470 80 L 470 190"/>
+  <path class="ar" marker-end="url(#a)" d="M 670 190 L 670 80"/>
+
+  <path class="wall" d="M 380 130 L 380 510 L 760 510 L 760 130"/>
+  <rect class="bx" x="400" y="210" width="320" height="90" rx="14"/>
+  <rect class="bx" x="400" y="310" width="320" height="90" rx="14"/>
+  <rect class="bx" x="400" y="410" width="320" height="90" rx="14"/>
+  <text class="val" x="560" y="268">3</text>
+  <text class="val" x="560" y="368">2</text>
+  <text class="val" x="560" y="468">1</text>
+
+  <text class="cap" x="570" y="590">마지막에 넣은 3이 가장 먼저 나옵니다</text>
+</g>
+</svg>

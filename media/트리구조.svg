@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1140" viewBox="0 0 1140 1140">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .val { font-size:38px; fill:#111; text-anchor:middle; }
+  .side{ font-size:24px; fill:#8a8a8a; }
+  .cap { font-size:26px; fill:#111; text-anchor:middle; }
+  .nd  { fill:#ffffff; stroke:#111; stroke-width:3.5; }
+  .eg  { fill:none; stroke:#111; stroke-width:3.5; }
+</style>
+<rect width="1140" height="1140" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,260)">
+  <path class="eg" d="M 570 110 L 330 290"/>
+  <path class="eg" d="M 570 110 L 810 290"/>
+  <path class="eg" d="M 330 290 L 210 470"/>
+  <path class="eg" d="M 330 290 L 450 470"/>
+  <path class="eg" d="M 810 290 L 690 470"/>
+  <path class="eg" d="M 810 290 L 930 470"/>
+
+  <circle class="nd" cx="570" cy="110" r="52"/>
+  <circle class="nd" cx="330" cy="290" r="52"/>
+  <circle class="nd" cx="810" cy="290" r="52"/>
+  <circle class="nd" cx="210" cy="470" r="52"/>
+  <circle class="nd" cx="450" cy="470" r="52"/>
+  <circle class="nd" cx="690" cy="470" r="52"/>
+  <circle class="nd" cx="930" cy="470" r="52"/>
+
+  <text class="val" x="570" y="124">12</text>
+  <text class="val" x="330" y="304">7</text>
+  <text class="val" x="810" y="304">45</text>
+  <text class="val" x="210" y="484">3</text>
+  <text class="val" x="450" y="484">9</text>
+  <text class="val" x="690" y="484">30</text>
+  <text class="val" x="930" y="484">65</text>
+
+  <text class="side" x="640" y="70">부모 노드</text>
+  <text class="side" x="150" y="560">자식 노드</text>
+  <text class="cap" x="570" y="600">자식이 두개까지만 올 수 있는 트리를 이진트리라고 합니다</text>
+</g>
+</svg>

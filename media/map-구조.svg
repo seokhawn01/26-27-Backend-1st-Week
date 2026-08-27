@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1140" viewBox="0 0 1140 1140">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .nm  { font-size:30px; fill:#111; }
+  .hd  { font-size:34px; fill:#111; text-anchor:middle; }
+  .cel { font-size:34px; fill:#111; text-anchor:middle; }
+  .dup { font-size:34px; fill:#2f6fd0; text-anchor:middle; }
+  .top { font-size:24px; fill:#8a8a8a; text-anchor:middle; }
+  .q   { font-size:34px; fill:#111; text-anchor:middle; }
+  .ans { font-size:48px; fill:#2f6fd0; text-anchor:middle; }
+  .cap { font-size:22px; fill:#8a8a8a; text-anchor:middle; }
+  .bx  { fill:none; stroke:#111; stroke-width:3.5; }
+  .ln  { stroke:#111; stroke-width:2.5; }
+  .ar  { fill:none; stroke:#111; stroke-width:3.5; }
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#111"/>
+  </marker>
+</defs>
+<rect width="1140" height="1140" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,270)">
+  <text class="nm"  x="60"  y="48">Map</text>
+  <text class="top" x="275" y="100">중복 X (유일성)</text>
+  <text class="top" x="515" y="100">중복 허용</text>
+
+  <rect class="bx" x="110" y="120" width="560" height="430" rx="36"/>
+  <line class="bx" x1="400" y1="120" x2="400" y2="550"/>
+  <line class="bx" x1="110" y1="200" x2="670" y2="200"/>
+  <line class="ln" x1="110" y1="287" x2="670" y2="287"/>
+  <line class="ln" x1="110" y1="374" x2="670" y2="374"/>
+  <line class="ln" x1="110" y1="461" x2="670" y2="461"/>
+
+  <text class="hd"  x="275" y="175">Key</text>
+  <text class="hd"  x="515" y="175">Value</text>
+
+  <text class="cel" x="275" y="256">"사과"</text>
+  <text class="cel" x="515" y="256">3</text>
+  <text class="cel" x="275" y="343">"바나나"</text>
+  <text class="dup" x="515" y="343">7</text>
+  <text class="cel" x="275" y="430">"포도"</text>
+  <text class="dup" x="515" y="430">7</text>
+  <text class="cel" x="275" y="517">"수박"</text>
+  <text class="cel" x="515" y="517">12</text>
+
+  <text class="q"   x="890" y="300">get("포도")</text>
+  <path class="ar" marker-end="url(#a)" d="M 890 330 L 890 396"/>
+  <text class="ans" x="890" y="455">7</text>
+  <text class="cap" x="890" y="510">키를 넣으면 value가 나옵니다</text>
+</g>
+</svg>
