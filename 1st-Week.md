@@ -223,11 +223,7 @@ catch (ConnectExceptionV3 | SendExceptionV3 e)
 
 참고로 진짜 최상위는 `Throwable`인데, 얘까지 잡으면 아까 잡으면 안 된다고 했던 `Error`까지 잡히기 때문에 더 위험합니다
 
-## catch 안에서 다시 던지기
 
-`catch` 안에 `throw`를 한다면 현재 위치에서 예외를 처리하겠단게 아닙니다
-
-현재 지점을 지나갔다는걸 로그로 남기고, 실제 처리는 부모한테 맡기겠다는 의미입니다
 
 ---
 
