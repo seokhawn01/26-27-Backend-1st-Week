@@ -70,7 +70,7 @@
 
 RDBMS는 데이터를 행과 열로 이루어진 테이블로 저장합니다
 
-![member 테이블 구조](media/테이블-구조.png)
+![member 테이블 구조](media/4st-media/테이블-구조.png)
 
 ## MySQL과 PostgreSQL
 
@@ -392,7 +392,7 @@ ORDER BY COUNT(*) DESC;
 
 `INNER JOIN`은 양쪽 테이블에 모두 있는 데이터만 남기는 조인입니다
 
-![INNER JOIN 동작](media/조인-inner.png)
+![INNER JOIN 동작](media/4st-media/조인-inner.png)
 
 그림에서 주황 점선으로 표시한 `id`와 `member_id`가 두 테이블을 이어주는 기준이 되는 열입니다
 

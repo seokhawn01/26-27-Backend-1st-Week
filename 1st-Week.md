@@ -84,13 +84,13 @@
 
 보다시피 `String`,`Integer`로 먼저 타입을 지정한걸 알 수 있습니다
 
-![StringBox](media/StringBox.png)
+![StringBox](media/1st-media/StringBox.png)
 
-![IntegerBox](media/IntegerBox.png)
+![IntegerBox](media/1st-media/IntegerBox.png)
 
 `BoxMain1`에선 `set`에 값을 넣을때, 올바른 타입으로 넣어줘서 오류가 나지 않은걸 확인할 수 있습니다
 
-![BoxMain1](media/BoxMain1.png)
+![BoxMain1](media/1st-media/BoxMain1.png)
 
 하지만 이렇게 코드를 짠다면 Box의 종류를 `StringBox`,`IntegerBox` 이렇게 두가지로 만들어야하는데 그렇다면 재사용성이 떨어지겠죠?
 
@@ -98,19 +98,19 @@
 
 `ObjectBox`를 보면 모든 타입의 부모인 `Object`를 사용해서 만든걸 볼 수 있습니다
 
-![ObjectBox](media/ObjectBox.png)
+![ObjectBox](media/1st-media/ObjectBox.png)
 
 이 `ObjectBox`를 사용하는 `BoxMain2`에서는 `(Integer)`로 다운캐스팅을 한 모습을 볼 수 있습니다
 
 따라서 `Integer`형은 사용가능하지만 아래에 있는 “숫자가 아니에요” 는 실행시 오류가 나게됩니다
 
-![BoxMain2](media/BoxMain2.png)
+![BoxMain2](media/1st-media/BoxMain2.png)
 
 ## 다운캐스팅과 `ClassCastException`
 
 아래 보시면 `get()`의 반환타입이 `Object`라서 다른 타입이 안에 있어도 컴파일 오류가 생기지 않아, 개발자입장에서는 코드를 직접 빌드하기 전까지는 오류를 알 수 없습니다.
 
-![BoxMain2 실행 결과 - ClassCastException](media/BoxMain2-실행결과.png)
+![BoxMain2 실행 결과 - ClassCastException](media/1st-media/BoxMain2-실행결과.png)
 
 여기서 알고가면 좋은건, 오류중에서는 컴파일오류가 제일 좋다 라는걸 알아주시면 좋습니다
 
@@ -136,7 +136,7 @@
 
 `T`는 아래 보는것처럼 다양하게 바꿔쓸 수 있습니다
 
-![타입 매개변수 관례](media/제네릭형태.png)
+![타입 매개변수 관례](media/1st-media/제네릭형태.png)
 
 ## 명칭 정리
 
@@ -166,11 +166,11 @@
 
 이어서 `GenericBox`를 보시면 제네릭 유형으로 메서드가 구성된걸 볼 수 있습니다
 
-![GenericBox](media/GenericBox.png)
+![GenericBox](media/1st-media/GenericBox.png)
 
 이 메서드를 사용한 `BoxMain3`에서는 이 제네릭을 통해서 원하는 타입으로 자유롭게 변경이 가능합니다
 
-![BoxMain3](media/BoxMain3.png)
+![BoxMain3](media/1st-media/BoxMain3.png)
 
 ## 재사용성과 타입안정성
 
@@ -256,7 +256,7 @@ System.out.println(arr[2]);  // 30
 
 ## O 안에 들어가는 것
 
-![빅오 표기법](media/빅오.png)
+![빅오 표기법](media/1st-media/빅오.png)
 
 `O`는 빅오표기법이라고 하며, 괄호안에 있는 식이 바로 데이터가 늘어날때 걸리는 시간이 얼마나 늘어나는지를 의미합니다
 
@@ -447,7 +447,7 @@ class Node<E> {
 
 `"A"`, `"B"`, `"C"` 세개를 담은 연결리스트를 그림으로 보겠습니다
 
-![연결리스트 노드 구조](media/연결리스트-구조.png)
+![연결리스트 노드 구조](media/1st-media/연결리스트-구조.png)
 
 여기서 `x01`, `x02`, `x03` 은 각 노드가 메모리에 저장된 주소라고 보시면 됩니다
 
@@ -475,7 +475,7 @@ class Node<E> {
 
 이번엔 `"A"`와 `"B"` 사이에 `"D"`를 끼워넣어 보겠습니다
 
-![연결리스트 중간에 노드 추가](media/연결리스트-추가.png)
+![연결리스트 중간에 노드 추가](media/1st-media/연결리스트-추가.png)
 
 먼저 새 노드 `"D"`를 만들어서 `x04` 자리에 놓습니다
 
@@ -561,7 +561,7 @@ list.add(500, x);  // O(n) - 500번까지 걸어간 다음에야 끼워넣음
 
 `Set`은 중복된 요소가 없고(유일성), 순서를 보장해주지 않습니다
 
-![set 유일성](media/set-유일성.png)
+![set 유일성](media/1st-media/set-유일성.png)
 
 그림을 보시면 이미 `12`가 들어있는 `Set`에다가 `12`를 또 넣으려고 하니까 무시되는걸 확인할 수 있습니다
 
@@ -610,7 +610,7 @@ arr[size++] = value;
 
 값 `3`은 `[3]`번 칸에, 값 `45`는 `[45]`번 칸에 넣어두는 방식입니다
 
-![값을 그대로 인덱스로](media/해시-값을인덱스로.png)
+![값을 그대로 인덱스로](media/1st-media/해시-값을인덱스로.png)
 
 이렇게 하면 `45`가 있는지 확인할때 `[45]`번 칸만 보면 되기때문에 `O(1)`로 끝납니다
 
@@ -630,7 +630,7 @@ static int hashIndex(int value) {
 }
 ```
 
-![해시 인덱스](media/해시-인덱스.png)
+![해시 인덱스](media/1st-media/해시-인덱스.png)
 
 그림을 보시면 `12`는 `12 % 10`이라서 `[2]`번 칸에, `45`는 `45 % 10`이라서 `[5]`번 칸에 들어간걸 확인할 수 있습니다
 
@@ -660,7 +660,7 @@ static int hashIndex(int value) {
 
 말로만 들으면 이상하죠? 그림과 함께 보도록 하겠습니다
 
-![해시 충돌](media/해시-충돌.png)
+![해시 충돌](media/1st-media/해시-충돌.png)
 
 그림을 보면 `5`라는 인덱스안에 `45`,`65`라는 데이터가 동일하게 저장됩니다
 
@@ -695,7 +695,7 @@ System.out.println(65 % 10);  // 5 - 다른 값인데 같은 칸으로 갑니다
 
 앞서 구현한게 `HashSet`이고, 여기에다가 연결리스트 개념이 추가되면 `LinkedHashSet`가 됩니다
 
-![LinkedHashSet](media/linkedhashset.png)
+![LinkedHashSet](media/1st-media/linkedhashset.png)
 
 그림을 보시면 해시 배열은 그대로인데, 아래에 넣은 순서대로 이어진 연결리스트가 하나 더 붙어있는걸 확인할 수 있습니다
 
@@ -721,7 +721,7 @@ System.out.println(set);  // [45, 12, 7] - 넣은 순서 그대로 나옵니다
 
 먼저 트리구조에 대해 살펴보겠습니다
 
-![트리구조](media/트리구조.png)
+![트리구조](media/1st-media/트리구조.png)
 
 트리는 부모노드와 자식노드로 구성되어있고, 자식이 두개까지 올 수 있는 트리가 이진트리라고 합니다
 
@@ -733,7 +733,7 @@ System.out.println(set);  // [45, 12, 7] - 넣은 순서 그대로 나옵니다
 
 이진트리는 사진처럼 자식이 한쪽으로 쏠리는 경우가 생길 수 있습니다
 
-![균형이 깨진 이진트리](media/이진트리-쏠림.png)
+![균형이 깨진 이진트리](media/1st-media/이진트리-쏠림.png)
 
 이렇게 된다면 시간복잡도가 `O(n)`이 되겠죠?
 
@@ -741,7 +741,7 @@ System.out.println(set);  // [45, 12, 7] - 넣은 순서 그대로 나옵니다
 
 암튼 앞서 말씀드린 레드 블랙 트리는 사진처럼 트리의 균형을 맞춰줄 수 있습니다
 
-![레드블랙 트리](media/레드블랙트리.png)
+![레드블랙 트리](media/1st-media/레드블랙트리.png)
 
 검은 노드와 빨간 노드를 번갈아 쓰는 규칙을 걸어두면, 한쪽으로 쏠리려고 할때마다 트리가 스스로 자리를 바꿔서 균형을 맞춥니다
 
@@ -801,7 +801,7 @@ System.out.println(set);  // [7, 12, 45] - 정렬된 순서로 나옵니다
 
 value는 데이터라고 생각하시면 편합니다
 
-![Map 구조](media/map-구조.png)
+![Map 구조](media/1st-media/map-구조.png)
 
 참고로 value는 당연히 중복이 가능합니다
 
@@ -918,7 +918,7 @@ System.out.println(map.keySet());  // [바나나, 사과, 포도] - 정렬된 �
 
 흔히 후입선출이라고 하는 스택에 대해 먼저 살펴보도록 하겠습니다
 
-![스택](media/스택.png)
+![스택](media/1st-media/스택.png)
 
 사진처럼 가장 마지막에 넣은 3번이 가장 먼저 나오기 때문에 나중에 넣은 게 가장 먼저 나와 last in first out 이라서, 후입선출이라고 합니다
 
@@ -945,7 +945,7 @@ System.out.println(stack.pop());  // 2
 
 스택과는 반대로 먼저 넣은것이 가장 먼저 나와 first in first out 이라고 합니다
 
-![큐](media/큐.png)
+![큐](media/1st-media/큐.png)
 
 보통 큐에 값을 넣는걸 `offer`, 꺼내는걸 `poll`이라고 합니다
 
@@ -970,7 +970,7 @@ System.out.println(queue.poll());  // 2
 
 부를때는 데크, 덱 이라고 부른다고 합니다
 
-![덱](media/덱.png)
+![덱](media/1st-media/덱.png)
 
 덱의 구현체는 `ArrayDeque`, `LinkedList`가 있습니다
 
@@ -1042,7 +1042,7 @@ System.out.println(deque.pollLast());  // 2
 
 마지막으로 지금까지 본 자료구조들이 컬렉션 프레임워크 안에서 어떻게 이어져 있는지 보겠습니다
 
-![컬렉션 프레임워크 전체 구조](media/컬렉션-프레임워크.png)
+![컬렉션 프레임워크 전체 구조](media/1st-media/컬렉션-프레임워크.png)
 
 `[5]`에서 규격이 먼저 있고 구현체가 그 틀 안에 들어간다고 말씀드렸는데, 그게 이 그림입니다
 
