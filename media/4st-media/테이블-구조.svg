@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1140" viewBox="0 0 1140 1140">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .ttl { font-size:34px; fill:#111; text-anchor:middle; }
+  .hd  { font-size:30px; fill:#111; text-anchor:middle; }
+  .cel { font-size:30px; fill:#111; text-anchor:middle; }
+  .tag { font-size:26px; fill:#2f6fd0; }
+  .tagc{ font-size:26px; fill:#2f6fd0; text-anchor:middle; }
+  .bx  { fill:none; stroke:#111; stroke-width:3.5; }
+  .ln  { stroke:#111; stroke-width:2.5; }
+  .hl  { fill:none; stroke:#2f6fd0; stroke-width:3.5; stroke-dasharray:9 9; }
+  .ar  { fill:none; stroke:#2f6fd0; stroke-width:3; }
+</style>
+<defs>
+  <marker id="b" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#2f6fd0"/>
+  </marker>
+</defs>
+<rect width="1140" height="1140" fill="#ffffff"/>
+<g class="lbl">
+  <text class="ttl" x="465" y="320">member 테이블</text>
+
+  <rect x="120" y="530" width="690" height="80" fill="#eaf1fb"/>
+
+  <rect class="bx" x="120" y="370" width="690" height="400" rx="20"/>
+  <line class="bx" x1="120" y1="450" x2="810" y2="450"/>
+  <line class="ln" x1="120" y1="530" x2="810" y2="530"/>
+  <line class="ln" x1="120" y1="610" x2="810" y2="610"/>
+  <line class="ln" x1="120" y1="690" x2="810" y2="690"/>
+  <line class="ln" x1="292" y1="370" x2="292" y2="770"/>
+  <line class="ln" x1="465" y1="370" x2="465" y2="770"/>
+  <line class="ln" x1="638" y1="370" x2="638" y2="770"/>
+
+  <text class="hd" x="206" y="421">id</text>
+  <text class="hd" x="378" y="421">name</text>
+  <text class="hd" x="551" y="421">age</text>
+  <text class="hd" x="724" y="421">height</text>
+
+  <text class="cel" x="206" y="501">1</text>
+  <text class="cel" x="378" y="501">김석환</text>
+  <text class="cel" x="551" y="501">24</text>
+  <text class="cel" x="724" y="501">188</text>
+
+  <text class="cel" x="206" y="581">2</text>
+  <text class="cel" x="378" y="581">이우빈</text>
+  <text class="cel" x="551" y="581">16</text>
+  <text class="cel" x="724" y="581">184</text>
+
+  <text class="cel" x="206" y="661">3</text>
+  <text class="cel" x="378" y="661">박연지</text>
+  <text class="cel" x="551" y="661">34</text>
+  <text class="cel" x="724" y="661">180</text>
+
+  <text class="cel" x="206" y="741">4</text>
+  <text class="cel" x="378" y="741">전천우</text>
+  <text class="cel" x="551" y="741">5</text>
+  <text class="cel" x="724" y="741">120</text>
+
+  <rect class="hl" x="292" y="370" width="173" height="400"/>
+
+  <path class="ar" marker-end="url(#b)" d="M 900 570 L 822 570"/>
+  <text class="tag" x="910" y="560">행(Row)</text>
+  <text class="tag" x="910" y="596">레코드(Record)</text>
+
+  <path class="ar" marker-end="url(#b)" d="M 378 830 L 378 782"/>
+  <text class="tagc" x="378" y="872">열(Column) / 속성(Attribute)</text>
+</g>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="1140" viewBox="0 0 1140 1140">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .ttl { font-size:30px; fill:#111; text-anchor:middle; }
+  .hd  { font-size:28px; fill:#111; text-anchor:middle; }
+  .cel { font-size:28px; fill:#111; text-anchor:middle; }
+  .kh  { font-size:28px; fill:#d97706; text-anchor:middle; }
+  .key { font-size:28px; fill:#d97706; text-anchor:middle; }
+  .on  { font-size:26px; fill:#777; }
+  .jn  { font-size:30px; fill:#111; text-anchor:end; }
+  .cap { font-size:24px; fill:#8a8a8a; text-anchor:middle; }
+  .tag { font-size:24px; fill:#d97706; text-anchor:middle; }
+  .eq  { font-size:32px; fill:#d97706; text-anchor:middle; }
+  .dot { fill:#d97706; }
+  .bx  { fill:none; stroke:#111; stroke-width:3.5; }
+  .ln  { stroke:#111; stroke-width:2.5; }
+  .kc  { fill:none; stroke:#d97706; stroke-width:4; stroke-dasharray:10 8; }
+  .cn  { fill:none; stroke:#d97706; stroke-width:4.5; }
+  .ar  { fill:none; stroke:#111; stroke-width:3.5; }
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#111"/>
+  </marker>
+</defs>
+<rect width="1140" height="1140" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,-76)">
+  <text class="ttl" x="280" y="250">member</text>
+  <text class="ttl" x="860" y="250">post</text>
+
+  <rect x="60" y="420" width="440" height="140" fill="#eaf1fb"/>
+  <rect x="640" y="350" width="440" height="210" fill="#eaf1fb"/>
+
+  <rect class="bx" x="60" y="280" width="440" height="280" rx="18"/>
+  <line class="bx" x1="60" y1="350" x2="500" y2="350"/>
+  <line class="ln" x1="60" y1="420" x2="500" y2="420"/>
+  <line class="ln" x1="60" y1="490" x2="500" y2="490"/>
+  <line class="ln" x1="340" y1="280" x2="340" y2="560"/>
+
+  <text class="hd"  x="200" y="325">name</text>
+  <text class="kh"  x="420" y="325">id</text>
+  <text class="cel" x="200" y="395">김석환</text>
+  <text class="key" x="420" y="395">1</text>
+  <text class="cel" x="200" y="465">이우빈</text>
+  <text class="key" x="420" y="465">2</text>
+  <text class="cel" x="200" y="535">박연지</text>
+  <text class="key" x="420" y="535">3</text>
+
+  <rect class="bx" x="640" y="280" width="440" height="280" rx="18"/>
+  <line class="bx" x1="640" y1="350" x2="1080" y2="350"/>
+  <line class="ln" x1="640" y1="420" x2="1080" y2="420"/>
+  <line class="ln" x1="640" y1="490" x2="1080" y2="490"/>
+  <line class="ln" x1="860" y1="280" x2="860" y2="560"/>
+
+  <text class="kh"  x="750" y="325">member_id</text>
+  <text class="hd"  x="970" y="325">title</text>
+  <text class="key" x="750" y="395">2</text>
+  <text class="cel" x="970" y="395">자바 정리</text>
+  <text class="key" x="750" y="465">2</text>
+  <text class="cel" x="970" y="465">SQL 정리</text>
+  <text class="key" x="750" y="535">3</text>
+  <text class="cel" x="970" y="535">DB 정리</text>
+
+  <rect class="kc" x="340" y="280" width="160" height="280" rx="18"/>
+  <rect class="kc" x="640" y="280" width="220" height="280" rx="18"/>
+
+  <path class="cn" d="M 500 455 L 640 385"/>
+  <path class="cn" d="M 500 455 L 640 455"/>
+  <path class="cn" d="M 500 525 L 640 525"/>
+  <circle class="dot" cx="500" cy="455" r="9"/>
+  <circle class="dot" cx="500" cy="525" r="9"/>
+  <circle class="dot" cx="640" cy="385" r="9"/>
+  <circle class="dot" cx="640" cy="455" r="9"/>
+  <circle class="dot" cx="640" cy="525" r="9"/>
+
+  <circle cx="595" cy="407" r="21" fill="#ffffff"/>
+  <text class="eq" x="595" y="419">=</text>
+  <circle cx="595" cy="455" r="21" fill="#ffffff"/>
+  <text class="eq" x="595" y="467">=</text>
+  <circle cx="595" cy="525" r="21" fill="#ffffff"/>
+  <text class="eq" x="595" y="537">=</text>
+
+  <text class="tag" x="420" y="610">조인 기준 열</text>
+  <text class="tag" x="750" y="610">조인 기준 열</text>
+
+  <text class="jn" x="470" y="685">INNER JOIN</text>
+  <path class="ar" marker-end="url(#a)" d="M 570 640 L 570 708"/>
+  <text class="on" x="620" y="685">ON member.id = post.member_id</text>
+
+  <rect x="230" y="790" width="680" height="210" fill="#eaf1fb"/>
+  <rect class="bx" x="230" y="720" width="680" height="280" rx="18"/>
+  <line class="bx" x1="230" y1="790" x2="910" y2="790"/>
+  <line class="ln" x1="230" y1="860" x2="910" y2="860"/>
+  <line class="ln" x1="230" y1="930" x2="910" y2="930"/>
+  <line class="ln" x1="570" y1="720" x2="570" y2="1000"/>
+
+  <text class="hd"  x="400" y="765">name</text>
+  <text class="hd"  x="740" y="765">title</text>
+  <text class="cel" x="400" y="835">이우빈</text>
+  <text class="cel" x="740" y="835">자바 정리</text>
+  <text class="cel" x="400" y="905">이우빈</text>
+  <text class="cel" x="740" y="905">SQL 정리</text>
+  <text class="cel" x="400" y="975">박연지</text>
+  <text class="cel" x="740" y="975">DB 정리</text>
+
+  <text class="cap" x="570" y="1060">양쪽에 다 있는 데이터만 남아서, 글이 없는 김석환은 빠집니다</text>
+</g>
+</svg>
